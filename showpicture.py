@@ -1,6 +1,7 @@
 from PIL import Image
 import struct
 #this file need publish ,so use my path
+# add function1
 path =my path
 
 def read_image(filename):
