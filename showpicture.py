@@ -1,7 +1,7 @@
 from PIL import Image
 import struct
 
-path = r'D:\_____\Works\PyProject\tensortest\code\MNIST_data'
+path =my path
 
 def read_image(filename):
     f = open(filename, 'rb')
@@ -24,9 +24,9 @@ def read_image(filename):
                 index += struct.calcsize('>B')
 
         # print('save ' + str(i) + 'image')
-        image.save(path+r'\train' +'\\'+ str(i) + '.png')
-
-
+        image.save(save path)
+        
+        
 def read_label(filename, saveFilename):
     f = open(filename, 'rb')
     index = 0
@@ -57,5 +57,5 @@ def read_label(filename, saveFilename):
 
 if __name__ == '__main__':
 
-    read_image(path+r'\train-images.idx3-ubyte')
-    read_label(path+r'\train-labels.idx1-ubyte',path+ r'\train_label.txt')
+    read_image(path)
+    read_label(filepah1,filepath2)
