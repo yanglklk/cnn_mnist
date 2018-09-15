@@ -65,3 +65,4 @@ if __name__ == '__main__':
     read_image(path1 + r'\train-images.idx3-ubyte')
     read_label(path1 + r'\train-labels.idx1-ubyte', path2 + r'\train_label.txt')
 
+# work on dev
