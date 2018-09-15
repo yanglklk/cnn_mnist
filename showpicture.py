@@ -2,8 +2,10 @@ from PIL import Image
 import struct
 #this file need publish ,so use my path
 # add function1
+
 path1 =r'D:\_____\Works\PyProject\tensortest\image_cv\ori_data'
 path2='D:\_____\Works\PyProject\tensortest\image_cv\data'
+
 def read_image(filename):
     f = open(filename, 'rb')
 
@@ -57,7 +59,9 @@ def read_label(filename, saveFilename):
 
 
 if __name__ == '__main__':
+
     read_image(path1 + r'\t10k-images.idx3-ubyte')
     read_label(path1 + r'\t10k-labels.idx1-ubyte', path2 + r'\train_label.txt')
     read_image(path1 + r'\train-images.idx3-ubyte')
     read_label(path1 + r'\train-labels.idx1-ubyte', path2 + r'\train_label.txt')
+
