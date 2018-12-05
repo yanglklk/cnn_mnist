@@ -5,6 +5,7 @@ import random
 import tensorflow  as tf
 
 # author yang
+# time 20181205
 # img=cv2.imread(r'./test/'+l[1])
 # print(img)
 def load_data_label():
